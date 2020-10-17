@@ -1,51 +1,332 @@
 <!DOCTYPE html>
 <html lang="lt">
 	<head>
-		<title></title>
+		<title>Puslapis</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container-fluid">
 			<header class="headeris">
-				<div class="row">
-					<div class="headHeader col-sm-3 offset-sm-2">
-						<h1>Cuda</h1>
+				<div class="row hnav">
+					<div class="headHeader ">
+						<img src="images/logo.png" alt="foto">
 					</div>
-					<div class="headLinks col-sm-6">
-						<ul class="nav nav-pills mb-3 col-sm-7 offset-sm-5" id="pills-tab" role="tablist">
+					<div class="headLinks ">
+						<ul class="nav nav-pills mb-3" role="tablist">
 						  <li class="nav-item" role="presentation">
-						    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+						    <a class="nav-link active" data-toggle="pill" href="#pills-home" role="tab">Home</a>
 						  </li>
 						  <li class="nav-item" role="presentation">
-						    <a class="nav-link" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-profile" aria-selected="false">About</a>
+						    <a class="nav-link" data-toggle="pill" href="#pills-about" role="tab">About</a>
 						  </li>
 						  <li class="nav-item" role="presentation">
-						    <a class="nav-link" id="pills-work-tab" data-toggle="pill" href="#pills-work" role="tab" aria-controls="pills-contact" aria-selected="false">Work</a>
+						    <a class="nav-link" data-toggle="pill" href="#pills-work" role="tab">Work</a>
 						  </li>
 						  <li class="nav-item" role="presentation">
-						    <a class="nav-link" id="pills-blog-tab" data-toggle="pill" href="#pills-blog" role="tab" aria-controls="pills-contact" aria-selected="false">Blog</a>
+						    <a class="nav-link" data-toggle="pill" href="#pills-blog" role="tab">Blog</a>
 						  </li>
 						  <li class="nav-item" role="presentation">
-						    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+						    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab">Contact</a>
 						  </li>
 						</ul>
 					</div>
 				</div>
 				<h2 class="col-sm-8 offset-sm-2">Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h2>
-				<button type="button" class="btn btn-secondary btn-lg col-sm-2 offset-sm-5">Work with us</button>
+				<div class="button">
+					<button type="submit" class="btn btn-secondary btn-lg">Work with us</button>
+				</div>
 			</header>
 			<div class="container">
 				<section class="cyan">
-					<h2>Services we provide</h2>
+					<h2>SERVICES WE PROVIDE</h2>
 					<hr>
-					<p>We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+					<p class="col-sm-4 offset-sm-4">We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+					<div class="card-deck">
+					  <div class="card">
+					    <img src="images/flag.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">BRANDING</h5>
+					      <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img src="images/pencil.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">DESIGN</h5>
+					      <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img src="images/cogs.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">DEVELOPMENT</h5>
+					      <p class="card-text">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img src="images/rocket.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">ROCKET SCIENCE</h5>
+					      <p class="card-text">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+					    </div>
+					  </div>
+					</div>
+				</section>
+				<section class="whiteSection">
+					<h2>MEET OUR BEAUTIFUL TEAM</h2>
+					<hr>
+					<p>We are a small team of designers and developers, who help brands with big ideas.</p>
+					<div class="card-deck">
+					  <div class="card">
+					    <img src="images/grey.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">ANNE HATHAWAY</h5>
+					      <p class="personPosition">CEO / Marketing Guru</p>
+					      <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+					      <div class="row ">
+					      	<a href=""><img src="images/fb.png" alt="foto"></a>
+					      	<a href=""><img src="images/twitter.png" alt="foto"></a>
+					      	<a href=""><img src="images/linkedin.png" alt="foto"></a>
+					      	<a href=""><img src="images/mail.png" alt="foto"></a>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img src="images/grey.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">KATE UPTON</h5>
+					      <p class="personPosition">Creative Director</p>
+					      <p class="card-text">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+					      <div class="row">
+					      	<a href=""><img src="images/twitter.png" alt="foto"></a>
+					      	<a href=""><img src="images/linkedin.png" alt="foto"></a>
+					      	<a href=""><img src="images/mail.png" alt="foto"></a>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img src="images/grey.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">OLIVIA WILDE</h5>
+					      <p class="personPosition">Lead Designer</p>
+					      <p class="card-text">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+					      <div class="row">
+					      	<a href=""><img src="images/fb.png" alt="foto"></a>
+					      	<a href=""><img src="images/twitter.png" alt="foto"></a>
+					      	<a href=""><img src="images/linkedin.png" alt="foto"></a>
+					      	<a href=""><img src="images/mail.png" alt="foto"></a>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img src="images/grey.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">ASHLEY GREENE</h5>
+					      <p class="personPosition">SEO / Developer</p>
+					      <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+					      <div class="row">
+					      	<a href=""><img src="images/fb.png" alt="foto"></a>
+					      	<a href=""><img src="images/twitter.png" alt="foto"></a>
+					      	<a href=""><img src="images/mail.png" alt="foto"></a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</section>
+				<section class="skillSection">
+					<h2>WE GOT SKILLS!</h2>
+					<hr>
+					<p class="col-sm-4 offset-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="card-deck">
+					  <div class="card">
+					    <img src="images/90.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">WEB DESIGN</h5>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img src="images/75.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">HTML / CSS</h5>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img src="images/70.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">GRAPHIC DESIGN</h5>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <img src="images/85.png" class="card-img-top" alt="foto">
+					    <div class="card-body">
+					      <h5 class="card-title">UI / UX</h5>
+					    </div>
+					  </div>
+					</div>
+				</section>
+				<section class="portfolioSection">
+					<h2>OUR PORTFOLIO</h2>
+					<hr>
+					<p class="col-sm-4 offset-sm-4">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+					<div class="portfolioLinks">
+						<ul class="nav nav-pills mb-3" role="tablist">
+						  <li class="nav-item" role="presentation">
+						    <a class="nav-link active" data-toggle="pill" href="#pills-home" role="tab">ALL</a>
+						  </li>
+						  <li class="nav-item" role="presentation">
+						    <a class="nav-link" data-toggle="pill" href="#pills-about" role="tab">WEB</a>
+						  </li>
+						  <li class="nav-item" role="presentation">
+						    <a class="nav-link" data-toggle="pill" href="#pills-work" role="tab">APPS</a>
+						  </li>
+						  <li class="nav-item" role="presentation">
+						    <a class="nav-link" data-toggle="pill" href="#pills-blog" role="tab">ICONS</a>
+						  </li>
+						</ul>
+					</div>
+					<div class="card-deck">
+						<div class="row">
+							<div class="card col-sm-6">
+							    <img src="images/kompas1.png" class="card-img-top" alt="foto">
+							    <div class="card-body">
+							      <h5 class="card-title">Isometric Perspective Mock-Up</h5>
+							    </div>
+							  </div>
+							  <div class="card col-sm-6">
+							    <img src="images/kompas2.png" class="card-img-top" alt="foto">
+							    <div class="card-body">
+							      <h5 class="card-title">Time Zone App UI</h5>
+							    </div>
+							  </div>
+						</div>
+					    <div class="row">
+							<div class="card col-sm-6">
+							    <img src="images/kompas3.png" class="card-img-top" alt="foto">
+							    <div class="card-body">
+							      <h5 class="card-title">Viro Media Players UI</h5>
+							    </div>
+							  </div>
+							  <div class="card col-sm-6">
+							    <img src="images/kompas4.png" class="card-img-top" alt="foto">
+							    <div class="card-body">
+							      <h5 class="card-title">Blog / Magazine Flat UI Kit</h5>
+							    </div>
+							  </div>
+						</div>
+					</div>
+					<div class="button">
+						<button type="submit" class="btn btn-secondary btn-lg">LOAD MORE PROJECTS</button>
+					</div>
+				</section>
+				<section class="peopleSection">
+					<h2>WHAT POEPLE SAY ABOUT US</h2>
+					<hr>
+					<p class="col-sm-4 offset-sm-4" id="peopleP">Our clients love us!</p>
+					<div class="row">
+						<div class="row no-gutters col-sm-4 offset-sm-2">
+						    <div>
+						      <img src="images/grey.png" class="card-img" alt="foto">
+						    </div>
+						    <div class="col-md-8">
+						      <div class="card-body">
+						        <p class="card-text">“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+						        <h5 class="card-title">CHANEL IMAN</h5>
+						        <p class="card-text personPosition">CEO of Pinterest</p>
+						      </div>
+						    </div>
+					  	</div>
+					  	<div class="row no-gutters col-sm-4">
+						    <div class="">
+						      <img src="images/grey.png" class="card-img" alt="foto">
+						    </div>
+						    <div class="col-md-8">
+						      <div class="card-body">
+						        <p class="card-text">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+						        <h5 class="card-title">ADRIANA LIMA</h5>
+						        <p class="card-text personPosition">Founder of Instagram</p>
+						      </div>
+						    </div>
+					  	</div>
+					  	<div class="w-100"></div>
+					  	<div class="row no-gutters col-sm-4 offset-sm-2">
+						    <div class="">
+						      <img src="images/grey.png" class="card-img" alt="foto">
+						    </div>
+						    <div class="col-md-8">
+						      <div class="card-body">
+						        <p class="card-text">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+						        <h5 class="card-title">ANNE HATHAWAY</h5>
+						        <p class="card-text personPosition">Lead Designer at Behance</p>
+						      </div>
+						    </div>
+					  	</div>
+					  	<div class="row no-gutters col-sm-4">
+						    <div class="">
+						      <img src="images/grey.png" class="card-img" alt="foto">
+						    </div>
+						    <div class="col-md-8">
+						      <div class="card-body">
+						        <p class="card-text">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</p>
+						        <h5 class="card-title">EMMA STONE</h5>
+						        <p class="card-text personPosition">Co-Founder of Shazam</p>
+						      </div>
+						    </div>
+					  	</div>
+					</div>
+				</section>
+				<section class="touchSection">
+					<h2>GET IN TOUCH</h2>
+					<hr>
+					<p class="col-sm-4 offset-sm-4">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+					<form>
+					  <div class="form-row">
+					    <div class="form-group col-md-6">
+					      <input type="email" class="form-control" id="inputEmail4" placeholder="Your Name *">
+					    </div>
+					    <div class="form-group col-md-6">
+					      <input type="password" class="form-control" id="inputPassword4" placeholder="Your Email *">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Your Message *"></textarea>
+					  </div>
+					</form>
+					<div class="button">
+						<button type="submit" class="btn btn-secondary btn-lg">SEND MESSAGE</button>
+					</div>
 				</section>
 			</div>
+			<footer>
+				<ul class="nav justify-content-center">
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Facebook</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Twitter</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Google+</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">LinkedIn</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Behance</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Dribble</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">GitHub</a>
+				  </li>
+				</ul>
+			</footer>
 		</div>
 		<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
