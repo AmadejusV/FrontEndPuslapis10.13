@@ -68,7 +68,7 @@ hr{
 .btn-secondary{
 	background-color: #eb7d4b;
 }
-.card-deck{
+.carddeck{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -81,7 +81,7 @@ hr{
 	height: 124px;
 	margin: auto;
 }
-.cyan, .cyan .card-deck img, .cyan .card-deck .card{
+.cyan, .cyan .carddeck img, .cyan .carddeck .card{
 	background-color: #17c2a4;
 }
 .card{
@@ -168,6 +168,9 @@ hr{
 	padding: 0;
 	margin: 9.5px;
 }
+.portfolioSection .card-deck{
+	padding-top: 40px;
+}
 .portfolioSection .card-deck .row{
 	margin: auto;
 }
@@ -208,6 +211,9 @@ hr{
 }
 .peopleSection .w-100{
 	margin: 50px;
+}
+.peopleSection .pad{
+	padding-top: 40px;
 }
 /*------------------touchSection-------------------*/
 .touchSection{
